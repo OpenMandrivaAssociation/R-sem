@@ -11,10 +11,9 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.1-1.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-stats R-MASS R-matrixcalc 
-Requires:         R-boot R-tcltk R-polycor 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats R-MASS R-matrixcalc
-BuildRequires:    R-boot R-tcltk R-polycor 
+Requires:         R-stats R-MASS R-matrixcalc R-boot R-tcltk R-polycor
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-stats R-MASS R-matrixcalc R-boot R-tcltk R-polycor
 
 %description
 This package contains functions for fitting general linear structural
