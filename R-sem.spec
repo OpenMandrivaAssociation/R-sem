@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.1_1
-Release:          1
+Release:          2
 Summary:          Structural Equation Models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
